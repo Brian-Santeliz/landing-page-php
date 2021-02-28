@@ -2,7 +2,7 @@
     $host = 'localhost';
     $dbname = 'destinos_paraiso';
     $username = 'root';
-    $password = '300900';
+    $password = '';
 
     $db =  mysqli_connect($host, $username, $password, $dbname);
     $email = $_POST["email"];
