@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins&display=swap");
 :root {
-  --primaryColor: #3fd0d4;
-  --mainWhite: #fff;
-  --offWhite: #f7f7f7;
-  --mainBlack: #222;
-  --mainGrey: #ececec;
-  --darkGrey: #afafaf;
-  --mainTransition: all 0.3s linear;
-  --mainSpacing: 0.25rem;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.25);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --color-primario: #3fd0d4;
+  --blanco-main: #fff;
+  --blanco-secundario: #f7f7f7;
+  --negro-main: #222;
+  --gris-main: #ececec;
+  --gris-oscuro: #afafaf;
+  --transicion: all 0.3s linear;
+  --espaciado: 0.25rem;
+  --sombra-clara: 2px 5px 3px 0px rgba(0, 0, 0, 0.25);
+  --sombra-oscura: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 *,
 ::before,
@@ -20,8 +20,8 @@
 }
 body {
   font-family: "Lato", sans-serif;
-  color: var(--mainBlack);
-  background: var(--offWhite);
+  color: var(--negro-main);
+  background: var(--blanco-secundario);
   line-height: 1.4;
   font-size: 1rem;
 }
@@ -37,7 +37,7 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
   margin-bottom: 1.25rem;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: var(--espaciado);
 }
 h1 {
   font-size: 3.3rem;
@@ -62,26 +62,26 @@ a {
 .btn-white,
 .btn-primary {
   text-transform: uppercase;
-  letter-spacing: var(--mainSpacing);
-  color: var(--mainWhite);
-  border: 2px solid var(--mainWhite);
+  letter-spacing: var(--espaciado);
+  color: var(--blanco-main);
+  border: 2px solid var(--blanco-main);
   padding: 0.9rem 1.6rem;
   display: inline-block;
-  transition: var(--mainTransition);
+  transition: var(--transicion);
   cursor: pointer;
 }
 .btn-white:hover {
-  background: var(--mainWhite);
-  color: var(--primaryColor);
+  background: var(--blanco-main);
+  color: var(--color-primario);
 }
 .btn-primary {
-  background: var(--primaryColor);
-  color: var(--mainWhite);
-  border: 2px solid var(--primaryColor);
+  background: var(--color-primario);
+  color: var(--blanco-main);
+  border: 2px solid var(--color-primario);
 }
 .btn-primary:hover {
   background: transparent;
-  color: var(--primaryColor);
+  color: var(--color-primario);
 }
 .section {
   padding: 5rem 0;
@@ -96,7 +96,7 @@ a {
   letter-spacing: 0.5rem;
 }
 .subtitle {
-  color: var(--primaryColor);
+  color: var(--color-primario);
 }
 .section-center {
   width: 85vw;
@@ -107,14 +107,14 @@ a {
 .hero {
   min-height: 100vh;
   min-height: calc(100vh - 62px);
-  background: var(--primaryColor);
+  background: var(--color-primario);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .hero-banner {
   text-align: center;
-  color: var(--mainWhite);
+  color: var(--blanco-main);
   padding: 0 2rem;
 }
 .hero-title {
@@ -126,7 +126,7 @@ a {
   width: 85%;
   margin: 0 auto;
   margin-bottom: 2rem;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: var(--espaciado);
   line-height: 2;
   font-weight: 400;
 }
@@ -143,7 +143,7 @@ a {
   }
 }
 .nosotros {
-  background: var(--mainWhite);
+  background: var(--blanco-main);
 }
 .nosotros-img,
 .nosotros-info {
@@ -170,7 +170,7 @@ a {
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 0.5rem solid var(--primaryColor);
+    border: 0.5rem solid var(--color-primario);
     top: -1.5rem;
     left: -1.5rem;
     border-radius: var(--borderRadius);
@@ -187,7 +187,7 @@ a {
   margin-bottom: 3rem;
 }
 .servicio-icon {
-  background: var(--primaryColor);
+  background: var(--color-primario);
   padding: 0.5rem;
   display: inline-block;
   font-size: 2rem;
@@ -238,15 +238,15 @@ a {
 }
 
 .viajes-viajes {
-  background: var(--mainWhite);
+  background: var(--blanco-main);
 }
 .viaje-card {
-  box-shadow: var(--lightShadow);
-  transition: var(--mainTransition);
+  box-shadow: var(--sombra-clara);
+  transition: var(--transicion);
   margin-bottom: 4rem;
 }
 .viaje-card:hover {
-  box-shadow: var(--darkShadow);
+  box-shadow: var(--sombra-oscura);
 }
 .viaje-footer {
   padding: 1.2rem 1.5rem;
@@ -255,7 +255,7 @@ a {
   text-transform: capitalize;
 }
 .viaje-country {
-  color: var(--primaryColor);
+  color: var(--color-primario);
   text-transform: capitalize;
 }
 .viaje-info {
@@ -266,12 +266,12 @@ a {
 .viaje-details p {
   line-height: 0.2;
   text-transform: capitalize;
-  color: var(--darkGrey);
+  color: var(--gris-oscuro);
   letter-spacing: 0.02rem;
 }
 .viaje-country {
   align-self: center;
-  color: var(--primaryColor);
+  color: var(--color-primario);
 }
 .viaje-link {
   text-align: center;
@@ -283,7 +283,7 @@ a {
   position: absolute;
   left: 0;
   top: 0;
-  background: var(--primaryColor);
+  background: var(--color-primario);
   text-transform: capitalize;
   padding: 0.25rem 0.5rem;
 }
@@ -304,11 +304,11 @@ a {
 }
 .galeria {
   padding-top: 2rem;
-  background: var(--darkGrey);
+  background: var(--gris-oscuro);
 }
 .galeria-img-container {
   position: relative;
-  background: var(--primaryColor);
+  background: var(--color-primario);
 }
 .galeria-icon {
   position: absolute;
@@ -316,13 +316,13 @@ a {
   left: 50%;
   font-size: 2rem;
   transform: translate(-50%, -50%);
-  color: var(--mainWhite);
-  transition: var(--mainTransition);
+  color: var(--blanco-main);
+  transition: var(--transicion);
   opacity: 0;
   cursor: pointer;
 }
 .galeria-img {
-  transition: var(--mainTransition);
+  transition: var(--transicion);
 }
 .galeria-img-container:hover .galeria-img {
   opacity: 0.5;
@@ -359,8 +359,8 @@ a {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 300;
-  letter-spacing: var(--mainSpacing);
-  border: 2px solid var(--primaryColor);
+  letter-spacing: var(--espaciado);
+  border: 2px solid var(--color-primario);
   background: transparent;
   text-transform: uppercase;
   outline: none;
@@ -371,15 +371,15 @@ a {
 .btn-submit {
   border-left: none;
   cursor: pointer;
-  transition: var(--mainTransition);
+  transition: var(--transicion);
 }
 .btn-submit:hover {
-  color: var(--mainWhite);
-  background: var(--primaryColor);
+  color: var(--blanco-main);
+  background: var(--color-primario);
 }
 .footer {
-  background: var(--mainBlack);
-  color: var(--mainWhite);
+  background: var(--negro-main);
+  color: var(--blanco-main);
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -392,28 +392,28 @@ a {
   flex-wrap: wrap;
 }
 .footer-link {
-  color: var(--mainWhite);
+  color: var(--blanco-main);
   text-transform: capitalize;
   font-size: 1rem;
   margin-right: 1rem;
-  letter-spacing: var(--mainSpacing);
-  transition: var(--mainTransition);
+  letter-spacing: var(--espaciado);
+  transition: var(--transicion);
 }
 .footer-link:hover {
-  color: var(--primaryColor);
+  color: var(--color-primario);
 }
 .footer-icon {
   font-size: 2rem;
   margin-right: 1rem;
-  color: var(--mainWhite);
-  transition: var(--mainTransition);
+  color: var(--blanco-main);
+  transition: var(--transicion);
 }
 .footer-icon:hover {
-  color: var(--primaryColor);
+  color: var(--color-primario);
 }
 .copyright {
   text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: var(--espaciado);
 }
 
 
@@ -435,9 +435,9 @@ a {
   border: none;
   outline: none;
   font-size: 1.5rem;
-  color: var(--primaryColor);
+  color: var(--color-primario);
   cursor: pointer;
-  transition: var(--mainTransition);
+  transition: var(--transicion);
 }
 .nav-toggle:hover {
   transform: scale(1.2);
@@ -445,21 +445,21 @@ a {
 .nav-link {
   display: block;
   padding: 1rem 2rem;
-  color: var(--mainBlack);
+  color: var(--negro-main);
   text-transform: capitalize;
   font-weight: bold;
-  letter-spacing: var(--mainSpacing);
-  transition: var(--mainTransition);
+  letter-spacing: var(--espaciado);
+  transition: var(--transicion);
 }
 .nav-link:hover {
-  color: var(--primaryColor);
-  background: var(--darkGrey);
+  color: var(--color-primario);
+  background: var(--gris-oscuro);
   padding-left: 2.25rem;
 }
 .nav-links {
   height: 0;
   overflow: hidden;
-  transition: var(--mainTransition);
+  transition: var(--transicion);
 }
 .show-links {
   height: 270px;
@@ -503,12 +503,12 @@ a {
   }
   .nav-icon {
     margin-right: 0.7rem;
-    color: var(--primaryColor);
+    color: var(--color-primario);
     font-size: 1.2rem;
-    transition: var(--mainTransition);
+    transition: var(--transicion);
   }
   .nav-icon:hover {
-    color: var(--darkGrey);
+    color: var(--gris-oscuro);
     transform: translateY(-10%);
   }
 }
@@ -518,8 +518,8 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--mainGrey);
-  transition: var(--mainTransition);
-  box-shadow: var(--lightShadow);
+  background: var(--gris-main);
+  transition: var(--transicion);
+  box-shadow: var(--sombra-clara);
   z-index: 1;
 }
