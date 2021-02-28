@@ -1,4 +1,4 @@
-<section class="section deals">
+<section class="section">
     <div class="title-wrapper">
       <h2 class="title">Recibe <span class="subtitle ">Ofertas</span></h2>
     </div>

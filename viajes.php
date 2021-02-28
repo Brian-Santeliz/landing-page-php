@@ -49,114 +49,114 @@
           </div>
         </div>
       </header>
-    <section class="section featured-tours">
+    <section class="section viajes-viajes">
       <div class="title-wrapper">
         <h2 class="title">Próximos <span class="subtitle">Viajes</span></h2>
       </div>
-      <div class="section-center featured-center">
-        <article class="tour-card">
-          <div class="tour-img-container">
-            <img src="./images/seychelles.jpg" class="tour-img" alt="" />
-            <p class="tour-date">agosto 14, 2021</p>
+      <div class="section-center viajes-center">
+        <article class="viaje-card">
+          <div class="viaje-img-container">
+            <img src="./images/seychelles.jpg" class="viaje-img" alt="" />
+            <p class="viaje-date">agosto 14, 2021</p>
           </div>
-          <div class="tour-footer">
-            <h4 class="tour-title">North y DenisIsland. El triunfo de lo exclusivo</h4>
-            <div class="tour-info">
-              <p class="tour-country">
+          <div class="viaje-footer">
+            <h4 class="viaje-title">North y DenisIsland. El triunfo de lo exclusivo</h4>
+            <div class="viaje-info">
+              <p class="viaje-country">
                 <span><i class="fas fa-map"></i></span> Seychelles
               </p>
-              <div class="tour-details">
+              <div class="viaje-details">
                 <p>6 dias</p>
                 <p>desde $2100</p>
               </div>
             </div>
           </div>
         </article>
-        <article class="tour-card">
-          <div class="tour-img-container">
-            <img src="./images/playa.jpeg" class="tour-img" alt="" />
-            <p class="tour-date">Octubre 1, 2021</p>
+        <article class="viaje-card">
+          <div class="viaje-img-container">
+            <img src="./images/playa.jpeg" class="viaje-img" alt="" />
+            <p class="viaje-date">Octubre 1, 2021</p>
           </div>
-          <div class="tour-footer">
-            <h4 class="tour-title">Playas Exóticas cristalinas</h4>
-            <div class="tour-info">
-              <p class="tour-country">
+          <div class="viaje-footer">
+            <h4 class="viaje-title">Playas Exóticas cristalinas</h4>
+            <div class="viaje-info">
+              <p class="viaje-country">
                 <span><i class="fas fa-map"></i></span> Hawaii
               </p>
-              <div class="tour-details">
+              <div class="viaje-details">
                 <p>10 dias</p>
                 <p>desde $4100</p>
               </div>
             </div>
           </div>
         </article>
-        <article class="tour-card">
-          <div class="tour-img-container">
-            <img src="./images/fernando-de-noronha.jpg" class="tour-img" alt="" />
-            <p class="tour-date">septiembre 26, 2021</p>
+        <article class="viaje-card">
+          <div class="viaje-img-container">
+            <img src="./images/fernando-de-noronha.jpg" class="viaje-img" alt="" />
+            <p class="viaje-date">septiembre 26, 2021</p>
           </div>
-          <div class="tour-footer">
-            <h4 class="tour-title">Fernando de Noronha. La esmeralda del Atlántico</h4>
-            <div class="tour-info">
-              <p class="tour-country">
+          <div class="viaje-footer">
+            <h4 class="viaje-title">Fernando de Noronha. La esmeralda del Atlántico</h4>
+            <div class="viaje-info">
+              <p class="viaje-country">
                 <span><i class="fas fa-map"></i></span>Brasil
               </p>
-              <div class="tour-details">
+              <div class="viaje-details">
                 <p>12 dias</p>
                 <p>desde $3100</p>
               </div>
             </div>
           </div>
         </article>
-        <article class="tour-card">
-          <div class="tour-img-container">
-            <img src="./images/Huahine.jpg" class="tour-img" alt="" />
-            <p class="tour-date">diciembre 5, 2021</p>
+        <article class="viaje-card">
+          <div class="viaje-img-container">
+            <img src="./images/Huahine.jpg" class="viaje-img" alt="" />
+            <p class="viaje-date">diciembre 5, 2021</p>
           </div>
-          <div class="tour-footer">
-            <h4 class="tour-title">Huahine. La esencia de los Mares del Sur
+          <div class="viaje-footer">
+            <h4 class="viaje-title">Huahine. La esencia de los Mares del Sur
             </h4>
-            <div class="tour-info">
-              <p class="tour-country">
+            <div class="viaje-info">
+              <p class="viaje-country">
                 <span><i class="fas fa-map"></i></span> Francia
               </p>
-              <div class="tour-details">
+              <div class="viaje-details">
                 <p>22 dias</p>
                 <p>desde $5400</p>
               </div>
             </div>
           </div>
         </article>
-        <article class="tour-card">
-          <div class="tour-img-container">
-            <img src="./images/ngorongoro.jpg" class="tour-img" alt="" />
-            <p class="tour-date">diciembre 10, 2021</p>
+        <article class="viaje-card">
+          <div class="viaje-img-container">
+            <img src="./images/ngorongoro.jpg" class="viaje-img" alt="" />
+            <p class="viaje-date">diciembre 10, 2021</p>
           </div>
-          <div class="tour-footer">
-            <h4 class="tour-title">Cráter de Ngorongoro. El hogar del mundo salvaje</h4>
-            <div class="tour-info">
-              <p class="tour-country">
+          <div class="viaje-footer">
+            <h4 class="viaje-title">Cráter de Ngorongoro. El hogar del mundo salvaje</h4>
+            <div class="viaje-info">
+              <p class="viaje-country">
                 <span><i class="fas fa-map"></i></span> Tanzania
               </p>
-              <div class="tour-details">
+              <div class="viaje-details">
                 <p>10 dias</p>
                 <p>desde $5400</p>
               </div>
             </div>
           </div>
         </article>
-        <article class="tour-card">
-          <div class="tour-img-container">
-            <img src="./images/patagonia.jpg" class="tour-img" alt="" />
-            <p class="tour-date">diciembre 24, 2021</p>
+        <article class="viaje-card">
+          <div class="viaje-img-container">
+            <img src="./images/patagonia.jpg" class="viaje-img" alt="" />
+            <p class="viaje-date">diciembre 24, 2021</p>
           </div>
-          <div class="tour-footer">
-            <h4 class="tour-title">Patagonia. Escenarios de hielos eternos</h4>
-            <div class="tour-info">
-              <p class="tour-country">
+          <div class="viaje-footer">
+            <h4 class="viaje-title">Patagonia. Escenarios de hielos eternos</h4>
+            <div class="viaje-info">
+              <p class="viaje-country">
                 <span><i class="fas fa-map"></i></span> Chile
               </p>
-              <div class="tour-details">
+              <div class="viaje-details">
                 <p>22 dias</p>
                 <p>desde $5400</p>
               </div>

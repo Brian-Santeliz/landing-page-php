@@ -182,104 +182,104 @@ a {
     position: relative;
   }
 }
-.service {
+.servicio {
   text-align: center;
   margin-bottom: 3rem;
 }
-.service-icon {
+.servicio-icon {
   background: var(--primaryColor);
   padding: 0.5rem;
   display: inline-block;
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
-.service-title {
+.servicio-title {
   text-transform: uppercase;
 }
-.service-text {
+.servicio-text {
   width: 80%;
   margin: 0 auto;
   line-height: 1.5;
   font-weight: 300;
 }
 @media screen and (min-width: 576px) {
-  .services-center {
+  .servicios-center {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .service {
+  .servicio {
     flex: 0 0 calc(50% - 1rem);
   }
 }
 @media screen and (min-width: 992px) {
-  .service {
+  .servicio {
     flex: 0 0 calc(33.333% - 1rem);
   }
 }
 @media screen and (min-width: 1170px) {
-  .service {
+  .servicio {
     display: flex;
     text-align: left;
   }
-  .service-icon {
+  .servicio-icon {
     align-self: start;
   }
-  .service-info {
+  .servicio-info {
     padding-left: 1rem;
   }
-  .service-title {
+  .servicio-title {
     margin-bottom: 0.5rem;
   }
-  .service-text {
+  .servicio-text {
     width: 90%;
     margin: 0;
   }
 }
 
-.featured-tours {
+.viajes-viajes {
   background: var(--mainWhite);
 }
-.tour-card {
+.viaje-card {
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
   margin-bottom: 4rem;
 }
-.tour-card:hover {
+.viaje-card:hover {
   box-shadow: var(--darkShadow);
 }
-.tour-footer {
+.viaje-footer {
   padding: 1.2rem 1.5rem;
 }
-.tour-title {
+.viaje-title {
   text-transform: capitalize;
 }
-.tour-country {
+.viaje-country {
   color: var(--primaryColor);
   text-transform: capitalize;
 }
-.tour-info {
+.viaje-info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.tour-details p {
+.viaje-details p {
   line-height: 0.2;
   text-transform: capitalize;
   color: var(--darkGrey);
   letter-spacing: 0.02rem;
 }
-.tour-country {
+.viaje-country {
   align-self: center;
   color: var(--primaryColor);
 }
-.tour-link {
+.viaje-link {
   text-align: center;
 }
-.tour-img-container {
+.viaje-img-container {
   position: relative;
 }
-.tour-date {
+.viaje-date {
   position: absolute;
   left: 0;
   top: 0;
@@ -288,29 +288,29 @@ a {
   padding: 0.25rem 0.5rem;
 }
 @media screen and (min-width: 768px) {
-  .featured-center {
+  .viajes-center {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .tour-card {
+  .viaje-card {
     flex: 0 0 calc(50% - 1rem);
   }
 }
 @media screen and (min-width: 1170px) {
-  .tour-card {
+  .viaje-card {
     flex: 0 0 calc(33.3333% - 1rem);
   }
 }
-.gallery {
+.galeria {
   padding-top: 2rem;
   background: var(--darkGrey);
 }
-.gallery-img-container {
+.galeria-img-container {
   position: relative;
   background: var(--primaryColor);
 }
-.gallery-icon {
+.galeria-icon {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -321,26 +321,26 @@ a {
   opacity: 0;
   cursor: pointer;
 }
-.gallery-img {
+.galeria-img {
   transition: var(--mainTransition);
 }
-.gallery-img-container:hover .gallery-img {
+.galeria-img-container:hover .galeria-img {
   opacity: 0.5;
 }
-.gallery-img-container:hover .gallery-icon {
+.galeria-img-container:hover .galeria-icon {
   opacity: 1;
 }
 @media screen and (min-width: 768px) {
-  .gallery-center {
+  .galeria-center {
     display: flex;
     flex-wrap: wrap;
   }
-  .gallery-img-container {
+  .galeria-img-container {
     flex: 0 0 50%;
   }
 }
 @media screen and (min-width: 992px) {
-  .gallery-img-container {
+  .galeria-img-container {
     flex: 0 0 25%;
   }
 }
