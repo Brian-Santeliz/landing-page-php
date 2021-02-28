@@ -9,7 +9,11 @@ $(() => {
       data: form.serialize(),
       success: () => {
         form[0].reset();
-        alert("Gracias por registrase!");
+        Swal.fire(
+          "Registrado",
+          "¡Te enviaremos las mejores ofertas!",
+          "success"
+        );
       },
     });
   });
