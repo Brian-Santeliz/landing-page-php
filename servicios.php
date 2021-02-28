@@ -11,48 +11,7 @@
 </html>
 <body>
     
-</body>
-<header id="home">
-    <nav class="navbar">
-      <div class="nav-center">
-        <div class="nav-header">
-          <img src="./images/destinoParaiso.png" class="nav-logo" alt="" />
-          <button type="button" class="nav-toggle" id="nav-toggle" aria-label="nav toggler ">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-        <div class="nav-links" id="nav-links">
-          <a href="index.html" class="scroll-link nav-link">
-            Inicio
-          </a>
-          <a href="nosotros.html" class=" scroll-link nav-link">
-            Nosotros
-          </a>
-          <a href="servicios.html" class="nav-link scroll-link">
-            Servicios
-          </a>
-          <a href="viajes.html" class="nav-link scroll-link">
-            Viajes
-          </a>
-        </div>
-        <div class="nav-icons">
-          <a href="http://uvm.edu.ve/" target="_blank" class="nav-icon"><i class="fab fa-facebook"></i></a>
-          <a href="http://uvm.edu.ve/" target="_blank" class="nav-icon"><i class="fab fa-twitter"></i></a>
-          <a href="http://uvm.edu.ve/" target="_blank" class="nav-icon"><i class="fab fa-squarespace"></i></a>
-        </div>
-    </nav>
-    <div class="hero">
-      <div class="hero-banner">
-        <h1 class="hero-title">Descubre Destinos</h1>
-        <p class="hero-text">
-          La vida comienza cuando exploras el mundo que te rodea
-        </p>
-        <a href="viajes.html" class="btn btn-white scroll-link">Ver viajes</a>
-      </div>
-    </div>
-  </header>
-
-
+<?php require("partials/header.php") ?>
   <section class="section services">
     <div class="title-wrapper">
       <h2 class="title">Nuestros <span class="subtitle">Servicios</span></h2>
@@ -85,7 +44,6 @@
             Queremos que destinos paraíso sea tu segundo hogar, y es por ello que siempre buscamos la perfección en nuestros aviones.
           </p>
         </div>
-        
       </article>
       <article class="service">
         <span class="service-icon"><i class="fas fa-utensils fa-fw"></i></span>
@@ -95,7 +53,6 @@
             Disfruta de nuestro delicioso menú mientras estás en el paraíso. Comida internacional, postres y bebidas gourmet.
           </p>
         </div>
-        
       </article>
       <article class="service">
         <span class="service-icon"><i class="fas fa-cross fa-fw"></i></span>
@@ -105,7 +62,6 @@
             Puedes viajar con comodidad al saber que nuestras aerolíneas cuentan con médicos expertos que estarán disponibles para prevenir cualquier percance de salud.
           </p>
         </div>
-        
       </article>
       <article class="service">
         <span class="service-icon"><i class="fas fa-gamepad fa-fw"></i></span>
@@ -119,30 +75,6 @@
       </article>
     </div>
   </section>
-
-  <footer class="section footer">
-    <div class="footer-links">
-      <a href="index.html" class="footer-link scroll-link">Inicio</a>
-      <a href="nosotros.html" class="footer-link scroll-link">Nosotros</a>
-      <a href="servicios.html" class="footer-link scroll-link">Servicios</a>
-      <a href="viajes.html" class="footer-link scroll-link">Viajes</a>
-    </div>
-    <div class="footer-icons">
-      <a href="http://uvm.edu.ve/" target="_blank" class="footer-icon"
-        ><i class="fab fa-facebook"></i
-      ></a>
-      <a href="http://uvm.edu.ve/" target="_blank" class="footer-icon"
-        ><i class="fab fa-twitter"></i
-      ></a>
-      <a href="http://uvm.edu.ve/" target="_blank" class="footer-icon"
-        ><i class="fab fa-squarespace"></i
-      ></a>
-    </div>
-    <p class="copyright">
-      copyright &copy; Destinos Paraiso
-      <span id="date"></span>. Todos Los Derechos Reservados
-    </p>
-  </footer>
-  <script src="./js/app.js"></script>
-</body>
-</html>
+  <?php
+    require("partials/footer.php")
+    ?>

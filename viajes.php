@@ -19,16 +19,16 @@
               </button>
             </div>
             <div class="nav-links" id="nav-links">
-              <a href="index.html" class="scroll-link nav-link">
+              <a href="index.php" class="scroll-link nav-link">
                 Inicio
               </a>
-              <a href="nosotros.html" class=" scroll-link nav-link">
+              <a href="nosotros.php" class=" scroll-link nav-link">
                 Nosotros
               </a>
-              <a href="servicios.html" class="nav-link scroll-link">
+              <a href="servicios.php" class="nav-link scroll-link">
                 Servicios
               </a>
-              <a href="viajes.html" class="nav-link scroll-link">
+              <a href="viajes.php" class="nav-link scroll-link">
                 Viajes
               </a>
             </div>
@@ -42,9 +42,9 @@
           <div class="hero-banner">
             <h1 class="hero-title">Descubre Destinos</h1>
             <p class="hero-text">
-              La vida comienza cuando exploras el mundo que te rodea
+             Conoce los próximos viajes disponibles en Destinos Paraiso
             </p>
-            <a href="viajes.html" class="btn btn-white scroll-link">Ver viajes</a>
+            <a href="index.php" class="btn btn-white scroll-link">Inicio</a>
           </div>
         </div>
       </header>
@@ -164,24 +164,6 @@
         </article>
       </div>
     </section>
-    <footer class="section footer">
-        <div class="footer-links">
-          <a href="home" class="footer-link scroll-link">Inicio</a>
-          <a href="nosotros.html" class="footer-link scroll-link">Nosotros</a>
-          <a href="servicios.html" class="footer-link scroll-link">Servicios</a>
-          <a href="viajes.html" class="footer-link scroll-link">Viajes</a>
-        </div>
-        <div class="footer-icons">
-          <a href="http://uvm.edu.ve/" target="_blank" class="footer-icon"><i class="fab fa-facebook"></i></a>
-          <a href="http://uvm.edu.ve/" target="_blank" class="footer-icon"><i class="fab fa-twitter"></i></a>
-          <a href="http://uvm.edu.ve/" target="_blank" class="footer-icon"><i class="fab fa-squarespace"></i></a>
-        </div>
-        <p class="copyright">
-          copyright &copy; Destinos Paraiso
-          <span id="date"></span>. Todos Los Derechos Reservados
-        </p>
-      </footer>
-      <script src="./js/app.js"></script>
-    </body>
-    
-    </html>
+    <?php
+    require("partials/footer.php")
+    ?>
