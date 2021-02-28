@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/jquery.js"></script>
   </head>
   <body>
     <header id="home">

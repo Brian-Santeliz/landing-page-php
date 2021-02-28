@@ -142,30 +142,30 @@ a {
     width: 70%;
   }
 }
-.about {
+.nosotros {
   background: var(--mainWhite);
 }
-.about-img,
-.about-info {
+.nosotros-img,
+.nosotros-info {
   margin-bottom: 4rem;
 }
-.about-info h3 {
+.nosotros-info h3 {
   text-transform: uppercase;
 }
 @media screen and (min-width: 992px) {
-  .about-center {
+  .nosotros-center {
     display: flex;
     justify-content: space-between;
   }
-  .about-img,
-  .about-info {
+  .nosotros-img,
+  .nosotros-info {
     flex: 0 0 calc(50% - 2rem);
     align-self: center;
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1170px) {
-  .about-img::before {
+  .nosotros-img::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -175,10 +175,10 @@ a {
     left: -1.5rem;
     border-radius: var(--borderRadius);
   }
-  .about-img {
+  .nosotros-img {
     position: relative;
   }
-  .about-photo {
+  .nosotros-photo {
     position: relative;
   }
 }

@@ -1,12 +1,12 @@
-<section class="section about">
+<section class="section nosotros">
     <div class="title-wrapper">
       <h2 class="title">Acerca de <span class="subtitle">Nosotros</span></h2>
     </div>
-    <div class="section-center about-center">
-      <div class="about-img">
-        <img src="./images/cañon.jpg" class="about-photo" alt="awesome beach" />
+    <div class="section-center nosotros-center">
+      <div class="nosotros-img">
+        <img src="./images/cañon.jpg" class="nosotros-photo" alt="awesome beach" />
       </div>
-      <article class="about-info">
+      <article class="nosotros-info">
         <h3>Mira el mundo diferente</h3>
         <p>
           Con más de 10 años en el mercado, Agencia de Destinos Paraiso, cuenta con 24 agencias, con asesores de viajes dispuestos a brindar la mejor atención y asesoría a todos sus clientes. 

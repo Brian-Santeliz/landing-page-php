@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/jquery.js"></script>
   </head>
   <body>
 
@@ -14,19 +15,19 @@
   require("partials/header.php")
 
 ?>
-    <section class="section about">
+    <section class="section nosotros">
         <div class="title-wrapper">
           <h2 class="title">Acerca de  <span class="subtitle">Nosotros</span></h2>
         </div>
-        <div class="section-center about-center">
-          <div class="about-img">
+        <div class="section-center nosotros-center">
+          <div class="nosotros-img">
             <img
               src="./images/montaña.jpg"
-              class="about-photo"
+              class="nosotros-photo"
               alt="awesome beach"
             />
           </div>
-          <article class="about-info">
+          <article class="nosotros-info">
             <h3>Comienza tu aventura</h3>
             <p>
              La diversión comienza cuando exploras el mundo que te rodea.

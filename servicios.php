@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Servicios | Destinos Paraiso</title>
     <link rel="stylesheet" href="fontawesome-free-5.9.0-web/css/all.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />}
+    <script src="./js/jquery.js"></script>
   </head>
 </html>
 <body>
